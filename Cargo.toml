@@ -14,8 +14,3 @@ opt-level = "s"
 lto = true
 strip = true
 codegen-units = 1
-
-# Build for wasm32-unknown-unknown (no WASI) by default.
-# The Basalt host does not provide WASI imports for regular plugins.
-[build]
-target = "wasm32-unknown-unknown"

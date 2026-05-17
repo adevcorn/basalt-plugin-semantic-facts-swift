@@ -31,7 +31,7 @@ basalt_plugin_meta! {
     version:           env!("CARGO_PKG_VERSION"),
     hook_flags:        CAP_CAPABILITY_HANDLE,
     provides:          "semantic-facts@swift/v1",
-    requires:          "parse.call-sites@swift/v1,parse.retrieval@swift/v1",
+    requires:          "parse.call-sites@swift/v1\nparse.retrieval@swift/v1",
     optional_requires: "",
     file_globs:        "**/*.swift",
     activates_on:      "",
